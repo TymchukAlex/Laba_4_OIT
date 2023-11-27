@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>TicTacToe</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-container">
+            <ul class="ul-nav">
+                <li><a href="/index.html">TicTacToe</a></li>
+            </ul>
+
+            <ul class="ul-nav">
+                <li><a href="/register">Register</a></li>
+                <li><a href="/login">Login</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Tic Tac Toe</h1>
+        <div class="result" id="result">
+            <h2>Press button to start game</h2>
+        </div>
+        <div class="board" id="board">
+            <div class="box" id="0">T</div>
+            <div class="box" id="1">I</div>
+            <div class="box" id="2">C</div>
+            <div class="box" id="3">T</div>
+            <div class="box" id="4">A</div>
+            <div class="box" id="5">C</div>
+            <div class="box" id="6">T</div>
+            <div class="box" id="7">O</div>
+            <div class="box" id="8">E</div>
+        </div>
+        <button class="btn" id="reset">Start</button>
+    </div>
+
+    <div id="myModal1" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h1>How you want to play? </h1>
+            <button class="btn btn-modal" id="online-btn">Online game</button>
+            <button class="btn btn-modal" id="local-btn">Local game</button>
+        </div>
+    </div>
+
+    <div id="myModal2" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h1>How you want to play? </h1>
+            <button class="btn btn-modal" id="guest-btn">Play as guest</button>
+            <button class="btn btn-modal" id="signin-btn">Sign In</button>
+        </div>
+    </div>
+
+    <div id="myModal3" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h1>Choose your Name</h1>
+            <input type="text" placeholder="Name" class="input-name" id="guest-name">
+            <button class="btn btn-modal" id="random-name-btn">Random name</button>
+            <button class="btn btn-modal" id="lobby-btn">Go to lobby</button>
+        </div>
+    </div>
+</body>
+</html>
